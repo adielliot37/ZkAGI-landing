@@ -1,0 +1,177 @@
+.particles-icon {
+  width: 483.1px;
+  height: 485.9px;
+  position: relative;
+  object-fit: contain;
+  display: none;
+  max-width: 100%;
+}
+.particles-icon1 {
+  height: 419px;
+  width: 465px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -57.1px;
+  left: 155px;
+  object-fit: contain;
+}
+.ecosystem-grants1,
+.reward-ai-trainers1 {
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  right: -40px;
+}
+.ecosystem-grants1 {
+  z-index: 1;
+}
+.reward-ai-trainers1 {
+  text-align: right;
+}
+.icon-organizer,
+.icon-organizer-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.icon-organizer {
+  width: 1070px;
+  justify-content: space-between;
+  gap: 20px;
+}
+.icon-organizer-wrapper {
+  width: 1392px;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.particles-icon2,
+.shape-transform {
+  position: absolute;
+  margin: 0 !important;
+}
+.particles-icon2 {
+  height: 458.7px;
+  width: 535.3px;
+  right: 171.7px;
+  bottom: -113.3px;
+  object-fit: contain;
+}
+.shape-transform {
+  height: 695px;
+  width: 695px;
+  right: -388px;
+  bottom: -560px;
+  border-radius: 50%;
+  background-color: rgba(42, 246, 152, 0.4);
+  filter: blur(479.31px);
+  mix-blend-mode: lighten;
+  z-index: 1;
+}
+.image-overlay-manager-maker-child {
+  height: 441px;
+  width: 1440px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.the-highly-tuned-and {
+  margin: 0;
+  width: 780px;
+  position: relative;
+  font-size: inherit;
+  line-height: 130%;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-shrink: 0;
+  text-shadow: 0 0 60px #a992ed;
+  max-width: 100%;
+  z-index: 2;
+}
+.image-overlay-manager-maker,
+.particles-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.image-overlay-manager-maker {
+  flex: 1;
+  justify-content: center;
+  padding: 89px 20px;
+  box-sizing: border-box;
+  min-height: 441px;
+}
+.particles-group {
+  align-self: stretch;
+  justify-content: flex-start;
+  position: relative;
+  text-align: center;
+  font-size: 28px;
+  font-family: "TT Firs Neue";
+}
+.frame-parent9,
+.mask-group,
+.particles-parent {
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent9 {
+  flex: 1;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 18px 0 45px;
+  gap: 198px;
+  debug_commit: f6aba90;
+  z-index: 1;
+}
+.mask-group,
+.particles-parent {
+  align-self: stretch;
+  max-width: 100%;
+}
+.particles-parent {
+  flex-direction: row;
+  position: relative;
+}
+.mask-group {
+  height: 621px;
+  overflow: hidden;
+  flex-direction: column;
+  z-index: 4;
+  text-align: left;
+  font-size: 14px;
+  color: #fff;
+  font-family: "Source Code Pro";
+}
+@media screen and (max-width: 800px) {
+  .icon-organizer {
+    flex-wrap: wrap;
+  }
+  .frame-parent9 {
+    gap: 99px 198px;
+    padding-top: 20px;
+    padding-bottom: 29px;
+    box-sizing: border-box;
+  }
+  .mask-group {
+    height: auto;
+  }
+}
+@media screen and (max-width: 450px) {
+  .the-highly-tuned-and {
+    font-size: 22px;
+    line-height: 29px;
+  }
+  .frame-parent9 {
+    gap: 49px 198px;
+  }
+}

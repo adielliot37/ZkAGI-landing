@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap");
+@font-face {
+  font-family: "TT Firs Neue";
+  src: url("/public/TTFirsNeue-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "TT Firs Neue";
+  src: url("/public/TT Firs Neue Trial ExtraLight.ttf");
+  font-weight: 500;
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}

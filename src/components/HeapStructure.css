@@ -1,0 +1,174 @@
+.reward-high-performance1,
+.usage-fees-for2 {
+  width: 252px;
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  right: -30px;
+}
+.usage-fees-for2 {
+  z-index: 1;
+}
+.graph-algo-dijkstra {
+  align-self: stretch;
+  height: 50px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  z-index: 1;
+  left: 30px;
+}
+.icon-arranger,
+.reward-high-performance-comput-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icon-arranger {
+  align-self: stretch;
+  flex: 1;
+  gap: 6px;
+}
+.reward-high-performance-comput-parent {
+  height: 194px;
+  width: 472px;
+  gap: 66px;
+  max-width: 100%;
+}
+.economic-penalties-for1,
+.usage-credits-for1 {
+  width: 304px;
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  right: -30px;
+}
+.usage-credits-for1 {
+  width: 247px;
+}
+.frame-child28 {
+  align-self: stretch;
+  height: 42px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+  left: 35px;
+}
+.economic-penalties-for-data-po-parent,
+.usage-credits-for-zkagi-api-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  right: 40px;
+}
+.usage-credits-for-zkagi-api-parent {
+  align-self: stretch;
+  flex: 1;
+  gap: 6px;
+}
+.economic-penalties-for-data-po-parent {
+  height: 194px;
+  width: 472px;
+  gap: 86px;
+  max-width: 100%;
+  text-align: right;
+  right: 40px;
+}
+.frame-parent7 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+}
+.community-governance1 {
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  z-index: 2;
+  right: -50px;
+}
+.community-governance-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px 0 0;
+}
+.usage-fees-for3 {
+  width: 297px;
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: right;
+  display: inline-block;
+  flex-shrink: 0;
+  right: -30px;
+}
+.frame-parent8 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+.frame-parent6,
+.shape-modifier {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-parent6 {
+  width: 1070px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 27px;
+}
+.shape-modifier {
+  width: 1392px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 14px;
+  color: #fff;
+  font-family: "Source Code Pro";
+}
+@media screen and (max-width: 1125px) {
+  .frame-parent7 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .reward-high-performance-comput-parent {
+    gap: 33px 66px;
+  }
+  .economic-penalties-for-data-po-parent {
+    gap: 43px 86px;
+    right: 40px;
+  }
+  .frame-parent8 {
+    flex-wrap: wrap;
+  }
+}

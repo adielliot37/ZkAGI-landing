@@ -1,0 +1,198 @@
+.leaf-link-child,
+.root-link-child {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 1;
+}
+.root-link-child {
+  height: 30px;
+  width: 33.9px;
+}
+.leaf-link-child {
+  align-self: stretch;
+  height: 16.7px;
+  max-width: 100%;
+  overflow: hidden;
+}
+.leaf-link {
+  height: 23.3px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 6.6px;
+  box-sizing: border-box;
+}
+.root-link,
+.root-link-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.root-link {
+  align-self: stretch;
+  height: 30px;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 9.1px;
+}
+.root-link-wrapper {
+  width: 104.7px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 3px 0 0;
+  box-sizing: border-box;
+}
+.how-to-use {
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+  min-width: 92px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.siblings-connection {
+  width: 92px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8px 0 0;
+  box-sizing: border-box;
+}
+.whitepaper {
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+  min-width: 96px;
+  z-index: 1;
+}
+.siblings-connection1 {
+  width: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8px 0 0;
+  box-sizing: border-box;
+}
+.subtree-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 133px;
+  height: 37px;
+  z-index: 1;
+}
+.buidl-now {
+  position: absolute;
+  top: 8px;
+  left: 24px;
+  display: inline-block;
+  min-width: 85px;
+  white-space: nowrap;
+  z-index: 2;
+}
+.subtree {
+  height: 37px;
+  flex: 1;
+  position: relative;
+}
+.frame-header,
+.siblings-connection-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.siblings-connection-parent {
+  width: 381px;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.frame-header {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: right;
+  font-size: 16px;
+  color: #fff;
+  font-family: "TT Firs Neue";
+}
+.badge-icon {
+  width: 45.4px;
+  height: 45.4px;
+  position: relative;
+  z-index: 1;
+}
+.badge-wrapper {
+  height: 66.4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 21px;
+  box-sizing: border-box;
+}
+.breadth-first-search-child {
+  height: 37px;
+  width: 35.4px;
+  position: relative;
+  z-index: 1;
+}
+.breadth-first-search,
+.depth-first-search {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.breadth-first-search {
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+}
+.depth-first-search {
+  width: 856.4px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 80px;
+  box-sizing: border-box;
+}
+.frame-parent1 {
+  width: 1070px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 65.6px;
+  max-width: 100%;
+}
+.shape-collection-inner {
+  width: 1262px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+@media screen and (max-width: 1125px) {
+  .depth-first-search {
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+  }
+  .frame-parent1 {
+    gap: 33px 65.6px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .siblings-connection-parent {
+    display: none;
+  }
+  .frame-parent1 {
+    gap: 16px 65.6px;
+  }
+}

@@ -1,0 +1,294 @@
+.token {
+  position: relative;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 43px;
+}
+.shape-set {
+  width: 75px;
+  border-radius: 100px;
+  border: 1px solid rgba(42, 246, 152, 0.3);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 5px 15px;
+}
+.the-power-of,
+.zkagi {
+  position: relative;
+  letter-spacing: -1px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.the-power-of {
+  margin: 0;
+  align-self: stretch;
+  font-size: inherit;
+  line-height: 52px;
+  z-index: 4;
+}
+.zkagi {
+  font-size: 74px;
+  line-height: 96px;
+  z-index: 5;
+  margin: -6px 0 0;
+}
+.the-power-of-parent,
+.tree-structure {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.the-power-of-parent {
+  align-self: stretch;
+  font-size: 48px;
+  color: #fff;
+  font-family: "TT Firs Neue";
+}
+.tree-structure {
+  width: 344px;
+  gap: 16px;
+  min-width: 344px;
+  max-width: 100%;
+}
+.sorter-icon,
+.sorter-icon1 {
+  position: absolute;
+  top: 637.8px;
+  width: 477px;
+  height: 120px;
+}
+.sorter-icon {
+  left: 155px;
+  object-fit: contain;
+}
+.sorter-icon1 {
+  left: 748px;
+  z-index: 1;
+}
+.conditional-icon,
+.conditional-icon1 {
+  height: 120px;
+  width: 472px;
+  position: absolute;
+  margin: 0 !important;
+  top: 427.8px;
+}
+.conditional-icon {
+  left: 155px;
+  object-fit: contain;
+}
+.conditional-icon1 {
+  right: 203.1px;
+  z-index: 1;
+}
+.conditional-icon2,
+.conditional-icon3 {
+  height: 40px;
+  width: 470px;
+  position: absolute;
+  margin: 0 !important;
+  top: 608.8px;
+}
+.conditional-icon2 {
+  left: 155px;
+  object-fit: contain;
+  z-index: 1;
+}
+.conditional-icon3 {
+  right: 203.1px;
+  z-index: 2;
+}
+.wrapper-group-1327225215-child {
+  height: 100%;
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  z-index: 3;
+  object-fit: contain;
+  position: absolute;
+  left: -40px;
+  top: -5px;
+  width: 100%;
+  transform: scale(1.105);
+}
+.wrapper-group-1327225215 {
+  height: 1378.4px;
+  flex: 1;
+  position: relative;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.oval-shaper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.sorter-parent {
+  height: 1378.4px;
+  width: 1428.1px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -1308.6px;
+  left: -787px;
+}
+.zkagi-is-a {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 4;
+}
+.frame-parent5,
+.tokenomics {
+  position: relative;
+  display: flex;
+}
+.frame-parent5 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.tokenomics {
+  width: 119px;
+  letter-spacing: 0.2px;
+  line-height: 16px;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 1px 0 0#000, 0 1px 0#000, -1px 0 0#000, 0-1px 0#000;
+  z-index: 5;
+}
+.rectangle-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 4;
+}
+.star-shape-icon {
+  position: absolute;
+  top: 22px;
+  left: 155px;
+  width: 14px;
+  height: 14px;
+  z-index: 5;
+}
+.vector-group {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.shape-assembler,
+.tokenomics-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tokenomics-parent {
+  width: 200px;
+  flex-direction: row;
+  padding: 20px 32px;
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+  font-size: 18px;
+  font-family: "TT Firs Neue";
+}
+.shape-assembler {
+  width: 462px;
+  flex-direction: column;
+  gap: 24px;
+  min-width: 462px;
+  max-width: 100%;
+  font-size: 16px;
+  color: #fff;
+}
+.function-tree-inner,
+.tree-structure-parent {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.tree-structure-parent {
+  width: 1070px;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+}
+.function-tree-inner {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px 161px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 14px;
+  color: #2af698;
+  font-family: "Source Code Pro";
+}
+@media screen and (max-width: 1125px) {
+  .shape-assembler,
+  .tree-structure {
+    flex: 1;
+  }
+  .tree-structure-parent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .the-power-of {
+    font-size: 38px;
+    line-height: 42px;
+  }
+  .zkagi {
+    font-size: 59px;
+    line-height: 77px;
+  }
+  .shape-assembler {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .the-power-of {
+    font-size: 29px;
+    line-height: 31px;
+  }
+  .zkagi {
+    font-size: 44px;
+    line-height: 58px;
+  }
+  .tree-structure {
+    min-width: 100%;
+  }
+}

@@ -1,0 +1,53 @@
+.image-1010-icon {
+  height: 90px;
+  width: 90px;
+  position: relative;
+  border-radius: 100px;
+  object-fit: cover;
+}
+.image-1010-wrapper {
+  align-self: stretch;
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 13px 0 12px;
+  box-sizing: border-box;
+}
+.bastian-gruber {
+  position: relative;
+  display: inline-block;
+  min-width: 115px;
+}
+.spacing {
+  flex: 0.6389;
+  border-radius: 8px;
+  background: linear-gradient(
+    180deg,
+    rgba(28, 25, 78, 0.1),
+    rgba(46, 83, 138, 0.1)
+  );
+  border: 1px solid #272a44;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 14px 68px 20px 69px;
+  gap: 15px;
+  min-width: 165px;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  font-family: "TT Firs Neue";
+}
+@media screen and (max-width: 450px) {
+  .spacing {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    flex: 1;
+  }
+}

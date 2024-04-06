@@ -1,0 +1,785 @@
+.people {
+  margin: 0;
+  width: 154px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -1px;
+  line-height: 52px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.people-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 24px 0 20px;
+  text-align: center;
+  font-size: 48px;
+  color: #fff;
+}
+.core-team {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 94px;
+}
+.shape-trimmer {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.shape-trimmer-wrapper {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 9.5px 0 0;
+  box-sizing: border-box;
+  min-width: 628px;
+  max-width: 100%;
+}
+.core-team-parent,
+.frame-parent24,
+.shape-trimmer-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.core-team-parent {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  max-width: 100%;
+}
+.frame-parent24 {
+  height: 294px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.linkedin-symbolsvg-icon1 {
+  width: 14px;
+  height: 14px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.triangle-former {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  background-color: #000;
+  border: 1px solid rgba(126, 131, 169, 0.3);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.linkedin-symbolsvg-icon2 {
+  width: 14px;
+  height: 14px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.triangle-former1 {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  background-color: #000;
+  border: 1px solid rgba(126, 131, 169, 0.3);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.triangle-former-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 138px;
+}
+.x-logosvg-icon1 {
+  width: 16px;
+  height: 14px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.layer-labeller {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  background-color: #000;
+  border: 1px solid rgba(126, 131, 169, 0.3);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.layer-labeller-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 14px 0 0;
+}
+.wrapper-frame-1327225054-child {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(1.1);
+}
+.wrapper-frame-1327225054 {
+  height: 120px;
+  width: 120px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.path-processor1 {
+  align-self: stretch;
+  border-radius: 10px;
+  background: linear-gradient(2.28deg, #0a041a, #2f2078);
+  border: 1.5px solid #292244;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 6.3px 0 5.7px;
+}
+.job-title2,
+.name2 {
+  position: relative;
+  font-weight: 500;
+}
+.name2 {
+  letter-spacing: 0.2px;
+  display: inline-block;
+  min-width: 72px;
+}
+.job-title2 {
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  line-height: 20px;
+  color: #bda0ff;
+}
+.frame-parent27,
+.name-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.frame-parent27 {
+  flex: 1;
+  flex-direction: row;
+  gap: 16px;
+}
+.x-logosvg-icon2 {
+  width: 16px;
+  height: 14px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.blend-blender {
+  height: 24px;
+  width: 24px;
+  border-radius: 4px;
+  background-color: #000;
+  border: 1px solid rgba(126, 131, 169, 0.3);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.canvas-crafter-icon {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(1.1);
+}
+.wrapper-canvas-crafter {
+  height: 120px;
+  width: 120px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.export-exporter {
+  align-self: stretch;
+  border-radius: 10px;
+  background: linear-gradient(2.28deg, #0a041a, #2f2078);
+  border: 1.5px solid #292244;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 6.3px 0 5.7px;
+}
+.job-title3,
+.name3 {
+  position: relative;
+  letter-spacing: 0.2px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 72px;
+}
+.job-title3 {
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  line-height: 20px;
+  color: #2af698;
+  min-width: 59px;
+}
+.export-exporter-parent,
+.name-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.export-exporter-parent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 16px;
+}
+.blend-blender-parent {
+  flex: 1;
+  flex-direction: row;
+  gap: 30px;
+}
+.blend-blender-parent,
+.frame-parent25,
+.frame-parent26 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent26 {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 30px;
+  max-width: calc(100% - 30px);
+}
+.frame-parent25 {
+  height: 294px;
+  flex-direction: row;
+  padding: 0 5px 0 0;
+  box-sizing: border-box;
+  gap: 6px;
+  max-width: 100%;
+}
+.linkedin-symbolsvg-icon3 {
+  width: 14px;
+  height: 14px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.variable-validator {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  background-color: #000;
+  border: 1px solid rgba(126, 131, 169, 0.3);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.linkedin-symbolsvg-icon4 {
+  width: 14px;
+  height: 14px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.variable-validator1 {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  background-color: #000;
+  border: 1px solid rgba(126, 131, 169, 0.3);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.variable-validator-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 138px;
+}
+.x-logosvg-icon3 {
+  width: 16px;
+  height: 14px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.x-logosvg-container {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  background-color: #000;
+  border: 1px solid rgba(126, 131, 169, 0.3);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.x-logosvg-icon4 {
+  width: 16px;
+  height: 14px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.x-logosvg-frame {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  background-color: #000;
+  border: 1px solid rgba(126, 131, 169, 0.3);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.frame-parent28,
+.frame-parent29 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 138px;
+}
+.frame-parent28 {
+  flex-direction: row;
+  gap: 6px;
+}
+.frame-parent23,
+.sub-tree {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-parent23 {
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 18px;
+  color: #fff;
+}
+.sub-tree {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.advisors {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 80px;
+}
+.frame-child31 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.advisors-parent,
+.rectangle-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangle-wrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: 9.5px 0 0;
+  box-sizing: border-box;
+  min-width: 630px;
+}
+.advisors-parent {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.wrapper-frame-1327225054-item {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: -7px;
+  transform: scale(1.111);
+}
+.wrapper-frame-13272250541 {
+  height: 120px;
+  width: 120px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper-frame-1327225054-wrapper {
+  height: 132px;
+  border-radius: 10px;
+  background: linear-gradient(2.28deg, #0a041a, #134da5);
+  border: 1.5px solid #292244;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 13.3px 0 0;
+}
+.name4 {
+  position: relative;
+  letter-spacing: 0.2px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 114px;
+}
+.linkedin-symbolsvg-icon5 {
+  width: 14px;
+  height: 14px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.linkedin-symbolsvg-container {
+  height: 24px;
+  width: 24px;
+  border-radius: 4px;
+  background-color: #000;
+  border: 1px solid rgba(126, 131, 169, 0.3);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.x-logosvg-icon5 {
+  width: 16px;
+  height: 14px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.x-logosvg-wrapper1 {
+  height: 24px;
+  width: 24px;
+  border-radius: 4px;
+  background-color: #000;
+  border: 1px solid rgba(126, 131, 169, 0.3);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.circle-handler,
+.triangle-admin {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 6px;
+}
+.circle-handler {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: 20px;
+}
+.job-title4 {
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #bda0ff;
+  display: inline-block;
+  max-width: 100%;
+}
+.circle-handler-parent,
+.shape-arranger {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 3px;
+  min-width: 250px;
+  max-width: 100%;
+}
+.shape-arranger {
+  flex-direction: row;
+  gap: 16px;
+  min-width: 338px;
+}
+.shape-assembler-icon {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: -7px;
+  transform: scale(1.111);
+}
+.wrapper-shape-assembler {
+  height: 120px;
+  width: 120px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.data-processor3 {
+  height: 132px;
+  border-radius: 10px;
+  background: linear-gradient(2.28deg, #0a041a, #2f2078);
+  border: 1.5px solid #292244;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 13.3px 0 0;
+  min-width: 120px;
+}
+.job-title5,
+.name5 {
+  position: relative;
+  letter-spacing: 0.2px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 104px;
+}
+.job-title5 {
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  line-height: 20px;
+  color: #bda0ff;
+  min-width: 59px;
+}
+.data-processor-container,
+.filled-shape-maker {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.data-processor-container {
+  flex-direction: row;
+  padding: 0 196px 0 0;
+  box-sizing: border-box;
+  gap: 16px;
+  max-width: 100%;
+}
+.linkedin-symbolsvg-icon6 {
+  width: 14px;
+  height: 14px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.linkedin-symbolsvg-frame {
+  height: 24px;
+  width: 24px;
+  border-radius: 4px;
+  background-color: #000;
+  border: 1px solid rgba(126, 131, 169, 0.3);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.x-logosvg-icon6 {
+  width: 16px;
+  height: 14px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.x-logosvg-wrapper2 {
+  height: 24px;
+  width: 24px;
+  border-radius: 4px;
+  background-color: #000;
+  border: 1px solid rgba(126, 131, 169, 0.3);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.frame-parent31 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 6px;
+}
+.data-processor2,
+.frame-parent30 {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.data-processor2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 30px;
+  max-width: 100%;
+  font-size: 18px;
+  color: #fff;
+}
+.frame-parent30 {
+  flex-direction: column;
+  gap: 24px;
+}
+.data-hub,
+.frame-parent22,
+.frame-parent30 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-parent22 {
+  width: 1070px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 60px;
+}
+.data-hub {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px 86px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 14px;
+  color: #7e83a9;
+  font-family: "TT Firs Neue";
+}
+@media screen and (max-width: 1125px) {
+  .frame-parent22 {
+    gap: 30px 60px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .people {
+    font-size: 38px;
+    line-height: 42px;
+  }
+  .shape-trimmer-wrapper {
+    min-width: 100%;
+  }
+  .frame-parent23 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .rectangle-wrapper {
+    min-width: 100%;
+  }
+  .data-hub {
+    padding-bottom: 56px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .people {
+    font-size: 29px;
+    line-height: 31px;
+  }
+  .circle-handler {
+    flex-wrap: wrap;
+  }
+  .shape-arranger {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .data-processor3,
+  .shape-assembler-icon {
+    flex: 1;
+  }
+  .data-processor-container {
+    flex-wrap: wrap;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .data-hub {
+    padding-bottom: 36px;
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,62 @@
+.shape-collector-icon {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(1.1);
+}
+.wrapper-shape-collector {
+  height: 120px;
+  width: 120px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.data-processor1 {
+  align-self: stretch;
+  border-radius: 10px;
+  background: linear-gradient(2.28deg, #0a041a, #2f2078);
+  border: 1.5px solid #292244;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 6.3px 0 5.7px;
+}
+.job-title1,
+.name1 {
+  position: relative;
+  font-weight: 500;
+}
+.name1 {
+  letter-spacing: 0.2px;
+  display: inline-block;
+  min-width: 114px;
+}
+.job-title1 {
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  line-height: 20px;
+  color: #bda0ff;
+}
+.data-processor-group,
+.name-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.data-processor-group {
+  flex: 1;
+  flex-direction: row;
+  gap: 16px;
+  text-align: left;
+  font-size: 18px;
+  color: #fff;
+  font-family: "TT Firs Neue";
+}
