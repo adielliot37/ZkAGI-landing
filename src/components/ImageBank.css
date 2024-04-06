@@ -4,6 +4,8 @@
   flex-shrink: 0;
   debug_commit: f6aba90;
   z-index: 1;
+  left: -60px;
+  
 }
 .root-link-child {
   height: 30px;

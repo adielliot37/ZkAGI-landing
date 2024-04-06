@@ -29,56 +29,23 @@ const ZkAGIFinalWebsite = () => {
           <ImageBank />
           <TriangleCompound />
         </div>
-        <div className="ellipse-parent">
-          <div className="frame-child" />
-          <div className="betweenness-centrality">
-            <div className="clustering-coefficient">
-              <div className="page-rank">
-                <div className="triangle-transform">
-                  <div className="triangle-transform-child" />
-                  <div className="ellipse-group">
-                    <div className="frame-item" />
-                    <div className="frame-inner" />
-                    <div className="graph-coloring">
-                      <div className="wrapper-group-480974402">
-                        <img
-                          className="wrapper-group-480974402-child"
-                          alt=""
-                          src="/group-480974402-1.svg"
-                        />
-                      </div>
-                    </div>
-                    <div className="developer-smart-contract">
-                      Developer Smart Contract
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="rectangle-parent">
-                <div className="rectangle-div" />
-                <div className="date-parent">
-                  <div className="date" />
-                  <div className="condition-checker">
-                    <div className="wrapper-group-4809744021">
-                      <img
-                        className="wrapper-group-480974402-item"
-                        alt=""
-                        src="/group-480974402-2.svg"
-                      />
-                    </div>
-                  </div>
-                  <div className="zk-messenger">Zk Messenger</div>
-                </div>
-              </div>
-            </div>
-            <div className="function-caller">
-              <div className="zynapse">Zynapse</div>
-              <div className="returns-outputs">{`Returns & Outputs`}</div>
-            </div>
-          </div>
-          <BranchingLogic />
+      
+        <img
+  src="/circuit1.png" // Update with the correct path to your image
+  alt="" // Update with an appropriate description
+  style={{
+    height: '100%', // Adjust height to fill the container
+    width: '100%', // Adjust width to fill the container
+    objectFit: 'contain', // Ensure the image fits without stretching or clipping
+    borderRadius: '8px' // Match the container's border-radius
+  }}
+/>
+
+
+
+
           <FrameComponent51 />
-        </div>
+        
       </section>
       <section className="frame-parent">
         <div className="align-alignment-wrapper">
