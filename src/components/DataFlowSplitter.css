@@ -80,6 +80,16 @@
   margin-bottom: 20px; /* Space before the navigation buttons */
 }
 
+.members-section, .advisors-section {
+  margin-bottom: 20px;
+}
+
+.advisors-section .rectangle-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
 
 .navigation-button {
   border: none;
@@ -507,6 +517,38 @@
   justify-content: flex-start;
   gap: 24px;
 }
+
+.navigation, .advisors-display {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.advisors-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* Centers items along the main axis */
+  align-items: center; /* Aligns items vertically in the center */
+  gap: 20px; /* Adjust the space between items */
+  width: 100%; /* Ensure the container takes full width */
+}
+
+.advisors-list-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.advisors-list-second-row-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 80%; /* This width centers the second row under the first. Adjust if necessary. */
+  margin-left: auto; /* Aligns the wrapper to the center-right */
+  margin-right: auto; /* Ensures symmetry in alignment */
+}
+.members-display, .advisors-display {
+  overflow-x: auto;
+  white-space: nowrap;
+}
 .advisors {
   position: relative;
   letter-spacing: 1px;
@@ -803,16 +845,18 @@
   gap: 60px;
 }
 .data-hub {
+  display: flex;
   align-self: stretch;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  padding: 0 20px 86px;
+  padding: 0 20px 20px;
   box-sizing: border-box;
   flex-shrink: 0;
   text-align: left;
   font-size: 14px;
   color: #7e83a9;
   font-family: "TT Firs Neue";
+  align-items: center;
 }
 @media screen and (max-width: 1125px) {
   .frame-parent22 {

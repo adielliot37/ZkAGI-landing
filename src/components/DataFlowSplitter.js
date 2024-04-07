@@ -24,6 +24,16 @@ const DataFlowSplitter = () => {
     { id: 10, shapeCollector: "/image10.png", jobTitle: "Full Stack Dev", propName: "Aditya" }
   ];
 
+  const advisorsData = [
+    { id: 11, shapeCollector: "/a1.png", jobTitle: "Business Advisor", propName: "Pranay" },
+    { id: 12, shapeCollector: "/a2.png", jobTitle: "AI Infra Advisor", propName: "Fahd" },
+    { id: 13, shapeCollector: "/a3.png", jobTitle: "ML Advisor", propName: "Chirayu" },
+    { id: 14, shapeCollector: "/a4.png", jobTitle: "FinTech Advisor", propName: "Michelle" },
+    { id: 15, shapeCollector: "/a5.png", jobTitle: "Marketing Advisor", propName: "Gaffor" },
+    { id: 16, shapeCollector: "/a6.png", jobTitle: "KOL Advisor", propName: "CryptoDaku" },
+    { id: 17, shapeCollector: "/a7.png", jobTitle: "Web3 Partnerships Advisor", propName: "Amrit" },
+  ];
+  
   const handleNext = () => {
     setVisibleSet((prevSet) => (prevSet + 1) % 2); // Toggle between the two sets (0 and 1)
   };
@@ -67,79 +77,25 @@ const DataFlowSplitter = () => {
         </div>
         <div className="frame-parent30">
           <div className="advisors-parent">
+          <div className="advisors-section">
             <div className="advisors">Advisors</div>
             <div className="rectangle-wrapper">
               <div className="frame-child31" />
-            </div>
-          </div>
-          <div className="data-processor2">
-            <div className="shape-arranger">
-              <div className="wrapper-frame-1327225054-wrapper">
-                <div className="wrapper-frame-13272250541">
-                  <img
-                    className="wrapper-frame-1327225054-item"
-                    loading="lazy"
-                    alt=""
-                    src="/frame-1327225054-4@2x.png"
-                  />
-                </div>
-              </div>
-              <div className="circle-handler-parent">
-                <div className="circle-handler">
-                  <div className="name4">Nikhil Kumar</div>
-                  <div className="triangle-admin">
-                    <div className="linkedin-symbolsvg-container">
-                      <img
-                        className="linkedin-symbolsvg-icon5"
-                        alt=""
-                        src="/linkedin-symbolsvg-5.svg"
-                      />
-                    </div>
-                    <div className="x-logosvg-wrapper1">
-                      <img
-                        className="x-logosvg-icon5"
-                        alt=""
-                        src="/x-logosvg-5.svg"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div className="job-title4">{`Technical Implementation Lead & DevOps `}</div>
-              </div>
-            </div>
-            <div className="data-processor-container">
-              <div className="data-processor3">
-                <div className="wrapper-shape-assembler">
-                  <img
-                    className="shape-assembler-icon"
-                    loading="lazy"
-                    alt=""
-                    src="/frame-1327225054-6@2x.png"
-                  />
-                </div>
-              </div>
-              <div className="filled-shape-maker">
-                <div className="name5">Varun Joshi</div>
-                <div className="job-title5">AI Infra</div>
-              </div>
-            </div>
-            <div className="frame-parent31">
-              <div className="linkedin-symbolsvg-frame">
-                <img
-                  className="linkedin-symbolsvg-icon6"
-                  alt=""
-                  src="/linkedin-symbolsvg-5.svg"
-                />
-              </div>
-              <div className="x-logosvg-wrapper2">
-                <img
-                  className="x-logosvg-icon6"
-                  alt=""
-                  src="/x-logosvg-5.svg"
-                />
               </div>
             </div>
           </div>
+          <div className="advisors-list-row">
+          {advisorsData.slice(0, 4).map(advisor => (
+                    <FrameComponent key={advisor.id} {...advisor} />
+                  ))}
+          </div>
+          <div className="advisors-list-second-row-wrapper">
+                  <div className="advisors-list-row">
+                  {advisorsData.slice(4, 7).map(advisor => (
+                    <FrameComponent key={advisor.id} {...advisor} />
+                  ))}
+                </div>
+                </div>
         </div>
       </div>
     </section>
