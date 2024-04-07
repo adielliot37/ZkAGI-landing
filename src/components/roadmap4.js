@@ -10,7 +10,7 @@ const Roadmap4 = () => {
       {/* <div className="completed-wrapper">
         <div className="completed">test</div>
       </div> */}
-      {/* <div className="sme-marketplace-mvp">SME Marketplace MVP launch</div> */}
+      <div className="sme-marketplace-mvp">Growth Phase</div>
       <div className="function-fusion">
         <FrameComponent5
           pathProcessor="1"

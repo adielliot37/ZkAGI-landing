@@ -11,7 +11,7 @@ const FrameComponent3 = () => {
       {/* <div className="planned-wrapper">
         <div className="planned">planned</div>
       </div> */}
-      {/* <div className="poc-launch">PoC launch</div> */}
+      <div className="poc-launch">Bootstrapping Phase</div>
       <div className="animation-actor">
         <FrameComponent5
           pathProcessor="1"

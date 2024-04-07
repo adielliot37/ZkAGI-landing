@@ -11,7 +11,7 @@ const ValueTransformer = () => {
       {/* <div className="in-progress-wrapper">
         <div className="in-progress">In progress</div>
       </div> */}
-      {/* <div className="deploy-testnet">Deploy testnet</div> */}
+      <div className="deploy-testnet">Bootstrapping Phase</div>
       <div className="animation-actor">
         <FrameComponent5
           pathProcessor="1"

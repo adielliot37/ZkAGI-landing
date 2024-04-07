@@ -10,7 +10,7 @@ const FrameComponent4 = () => {
       {/* <div className="completed-wrapper">
         <div className="completed">Completed</div>
       </div> */}
-      {/* <div className="sme-marketplace-mvp">SME Marketplace MVP launch</div> */}
+      <div className="sme-marketplace-mvp">Research Phase</div>
       <div className="function-fusion">
         <FrameComponent5
           pathProcessor="1"
