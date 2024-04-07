@@ -60,11 +60,12 @@
   min-width: 165px;
 }
 .svgpatheditor-1-icon {
-  height: 64px;
-  width: 64px;
+  height: 120px; /* Adjusted from 100px to make the image taller */
+  width: 120px; /* Adjusted from 100px to make the image wider */
   position: relative;
   overflow: hidden;
   flex-shrink: 0;
+  object-fit: contain; /* Ensures the image fits well without stretching */
 }
 .svgpatheditor-1-wrapper {
   flex: 1;
@@ -72,7 +73,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 27px;
+  padding: 0 10px;
 }
 .bastion-trading {
   position: relative;

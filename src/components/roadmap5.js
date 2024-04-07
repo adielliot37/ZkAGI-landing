@@ -1,12 +1,12 @@
 import FrameComponent5 from "./FrameComponent";
-import "./ValueTransformer.css";
+import "./roadmap5.css";
 
-const ValueTransformer = () => {
+const Roadmap5 = () => {
   return (
     <div className="frame-parent16">
       <div className="layer-loader-parent">
         <div className="layer-loader" />
-        <div className="q4-2022">Q1 - 2024</div>
+        <div className="q4-2022">2025</div>
       </div>
       {/* <div className="in-progress-wrapper">
         <div className="in-progress">In progress</div>
@@ -15,37 +15,31 @@ const ValueTransformer = () => {
       <div className="animation-actor">
         <FrameComponent5
           pathProcessor="1"
-          mVPOfSMEMarketplaceLaunch="ZkSurfer V1 private alpha with basic capabilities"
+          mVPOfSMEMarketplaceLaunch="Enterprise Adoption with Trading & Hedge Funds, Defence, Citizenship Utilities"
           propWidth="7px"
           propMinWidth="7px"
         />
         <FrameComponent5
           pathProcessor="2"
-          mVPOfSMEMarketplaceLaunch="Pre-seed fundraising and grants "
+          mVPOfSMEMarketplaceLaunch="Scale enterprise adoption of Zynapse to Defence, Hedge Funds, Healthcare and citizenship utilities"
           propWidth="10px"
           propMinWidth="10px"
         />
         <FrameComponent5
           pathProcessor="3"
-          mVPOfSMEMarketplaceLaunch="ZkSurfer V1 (Nodes, Marketing, Trading)"
+          mVPOfSMEMarketplaceLaunch="Updates to Zynapse API with more capabilities"
           propWidth="10px"
           propMinWidth="10px"
         />
         <FrameComponent5
           pathProcessor="4"
-          mVPOfSMEMarketplaceLaunch="Privacy AI APL, Zynapse with basic capabilities"
+          mVPOfSMEMarketplaceLaunch="One-click privacy secured ML infra for developers"
           propWidth="10px"
           propMinWidth="10px"
         />
          <FrameComponent5
           pathProcessor="5"
-          mVPOfSMEMarketplaceLaunch="Upto 1TB or more GPU in DepIN cluster"
-          propWidth="10px"
-          propMinWidth="10px"
-        />
-         <FrameComponent5
-          pathProcessor="6"
-          mVPOfSMEMarketplaceLaunch="Prep for rebranding and PR with an early community campaign"
+          mVPOfSMEMarketplaceLaunch="Devs can publish custom ML models on infra and make various projects on it"
           propWidth="10px"
           propMinWidth="10px"
         />
@@ -54,4 +48,4 @@ const ValueTransformer = () => {
   );
 };
 
-export default ValueTransformer;
+export default Roadmap5;

@@ -38,7 +38,7 @@
   min-width: 114px;
 }
 .job-title1 {
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 0.4px;
   line-height: 20px;
   color: #bda0ff;
@@ -50,6 +50,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   gap: 4px;
+  font-size: 16px;
 }
 .data-processor-group {
   flex: 1;

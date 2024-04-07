@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import ImageBank from "../components/ImageBank";
 import TriangleCompound from "../components/TriangleCompound";
 import BranchingLogic from "../components/BranchingLogic";
@@ -12,11 +13,32 @@ import ValueTransformer from "../components/ValueTransformer";
 import FrameComponent3 from "../components/FrameComponent3";
 import FrameComponent2 from "../components/FrameComponent2";
 import FrameComponent1 from "../components/FrameComponent1";
+import Roadmap4 from '../components/roadmap4';
+import Roadmap5 from '../components/roadmap5';
+import Roadmap6 from '../components/roadmap6';
 import DataFlowSplitter from "../components/DataFlowSplitter";
 import FunctionLibrary from "../components/FunctionLibrary";
 import "./ZkAGIFinalWebsite.css";
 
 const ZkAGIFinalWebsite = () => {
+
+  const [showOriginalComponents, setShowOriginalComponents] = useState(true);
+  const [rightArrow, setRightArrow] = useState("/group-1327225057@2x.png"); // Initial right arrow image
+  const [leftArrow, setLeftArrow] = useState("/group-1327225060.svg"); // Initial left arrow image
+
+  const handleRightClick = () => {
+    setShowOriginalComponents(false);
+    // Change the arrow images upon clicking the right button
+    setRightArrow("/right-arrow.svg");
+    setLeftArrow("/left-arrow.png");
+  };
+
+  const handleLeftClick = () => {
+    setShowOriginalComponents(true);
+    // Revert the arrow images back to the original state upon clicking the left button
+    setRightArrow("/group-1327225057@2x.png");
+    setLeftArrow("/group-1327225060.svg");
+  };
   return (
     <div className="zkagi-final-website">
       <section className="tree-root">
@@ -84,27 +106,34 @@ const ZkAGIFinalWebsite = () => {
       <SortingAlgoCountingSort />
       <section className="roadmap">
         <h1 className="roadmap1">Roadmap</h1>
-        <div className="roadmap-child" />
-        <div className="opacity-optimizer">
-          <FrameComponent4 />
-          <ValueTransformer />
-          <FrameComponent3 />
-        </div>
         <div className="image-illustration">
-          <img className="image-illustration-child" alt="" />
           <img
             className="image-illustration-item"
-            alt=""
-            src="/group-1327225057@2x.png"
+            alt="Next"
+            src={rightArrow}
+            onClick={handleRightClick}
           />
           <img
             className="image-illustration-inner"
-            loading="lazy"
-            alt=""
-            src="/group-1327225060.svg"
+            alt="Back"
+            src={leftArrow}
+            onClick={handleLeftClick}
           />
-          <div className="shape-tools" />
         </div>
+
+        {showOriginalComponents ? (
+          <div className="opacity-optimizer">
+            <FrameComponent4 />
+            <ValueTransformer />
+            <FrameComponent3 />
+          </div>
+        ) : (
+          <div className="new-components">
+            <Roadmap4 />
+            <Roadmap5 />
+            <Roadmap6 />
+          </div>
+        )}
       </section>
       <FrameComponent2 />
       <FrameComponent1 />

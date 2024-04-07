@@ -6,68 +6,61 @@ const FrameComponent3 = () => {
     <div className="connection-point-parent">
       <div className="connection-point">
         <div className="control-flow" />
-        <div className="q1-2023">Q1 - 2023</div>
+        <div className="q1-2023">Q2- 2024</div>
       </div>
-      <div className="planned-wrapper">
+      {/* <div className="planned-wrapper">
         <div className="planned">planned</div>
-      </div>
-      <div className="poc-launch">PoC launch</div>
-      <div className="custom-component">
-        <div className="container">
-          <div className="separator">
-            <div className="layout-manager-wrapper">
-              <div className="layout-manager">1</div>
-            </div>
-            <div className="poc-launch-with">
-              PoC launch with 2 intermediaries
-            </div>
-          </div>
-        </div>
-        <div className="container1">
-          <div className="frame-parent17">
-            <div className="wrapper">
-              <div className="div">2</div>
-            </div>
-            <div className="smes-leads-generated">
-              2,000+ SMEs leads generated
-            </div>
-          </div>
-        </div>
-        <div className="container2">
-          <div className="frame-parent18">
-            <div className="frame">
-              <div className="div1">3</div>
-            </div>
-            <div className="sme-customers-onboarded">
-              50+ SME customers onboarded
-            </div>
-          </div>
-        </div>
-        <div className="container3">
-          <div className="frame-parent19">
-            <div className="wrapper1">
-              <div className="div2">4</div>
-            </div>
-            <div className="dao-nft-onboarding">
-              DAO NFT onboarding campaign
-            </div>
-          </div>
-        </div>
-        <div className="container4">
-          <div className="frame-parent20">
-            <div className="wrapper2">
-              <div className="div3">5</div>
-            </div>
-            <div className="initial-oracle-on-boarding">
-              Initial oracle on-boarding
-            </div>
-          </div>
-        </div>
+      </div> */}
+      {/* <div className="poc-launch">PoC launch</div> */}
+      <div className="animation-actor">
         <FrameComponent5
+          pathProcessor="1"
+          mVPOfSMEMarketplaceLaunch="ZkSurfer  private/public Beta"
+          propWidth="7px"
+          propMinWidth="7px"
+        />
+        <FrameComponent5
+          pathProcessor="2"
+          mVPOfSMEMarketplaceLaunch="Rebranding and launch of new ZkAGI website & blog"
+          propWidth="10px"
+          propMinWidth="10px"
+        />
+        <FrameComponent5
+          pathProcessor="3"
+          mVPOfSMEMarketplaceLaunch="Whitepaper and Tokenomics release"
+          propWidth="10px"
+          propMinWidth="10px"
+        />
+        <FrameComponent5
+          pathProcessor="4"
+          mVPOfSMEMarketplaceLaunch="Seed Round
+          "
+          propWidth="10px"
+          propMinWidth="10px"
+        />
+         <FrameComponent5
+          pathProcessor="5"
+          mVPOfSMEMarketplaceLaunch="Kickstart Community/Social Building (25k+ members)"
+          propWidth="10px"
+          propMinWidth="10px"
+        />
+         <FrameComponent5
           pathProcessor="6"
-          mVPOfSMEMarketplaceLaunch="Security and smart contract audit / testing"
-          propWidth="11px"
-          propMinWidth="11px"
+          mVPOfSMEMarketplaceLaunch="Airdrops, NFT and Quest Campaigns "
+          propWidth="10px"
+          propMinWidth="10px"
+        />
+        <FrameComponent5
+          pathProcessor="7"
+          mVPOfSMEMarketplaceLaunch="Dev Hackathons (Eth Chapters, Dev Rel, Breaking Point, Network State)"
+          propWidth="10px"
+          propMinWidth="10px"
+        />
+        <FrameComponent5
+          pathProcessor="8"
+          mVPOfSMEMarketplaceLaunch="2 TB+ Assets on DePIN"
+          propWidth="10px"
+          propMinWidth="10px"
         />
       </div>
     </div>

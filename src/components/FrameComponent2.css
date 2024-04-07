@@ -9,6 +9,7 @@
   font-family: inherit;
   display: inline-block;
 }
+
 .path-palette {
   align-self: stretch;
   display: flex;
@@ -17,134 +18,63 @@
   justify-content: center;
   padding: 0 25px 0 20px;
 }
-.logo-icon {
-  position: absolute;
-  top: calc(50% - 40px);
-  left: calc(50% - 40px);
-  border-radius: 20px;
-  width: 80px;
-  height: 80px;
-  object-fit: cover;
-}
-.property-picker {
-  height: 160px;
-  width: 160px;
-  position: relative;
-  border-radius: 8px;
-  background: linear-gradient(
-    180deg,
-    rgba(28, 25, 78, 0.1),
-    rgba(46, 83, 138, 0.1)
-  );
-  border: 1px solid #272a44;
-  box-sizing: border-box;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-.logo-icon1 {
-  position: absolute;
-  top: calc(50% - 40px);
-  left: calc(50% - 40px);
-  border-radius: 20px;
-  width: 80px;
-  height: 80px;
-  object-fit: cover;
-}
-.property-picker1 {
-  height: 160px;
-  width: 160px;
-  position: relative;
-  border-radius: 8px;
-  background: linear-gradient(
-    180deg,
-    rgba(28, 25, 78, 0.1),
-    rgba(46, 83, 138, 0.1)
-  );
-  border: 1px solid #272a44;
-  box-sizing: border-box;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-.image-1012-icon {
-  position: absolute;
-  top: calc(50% - 20px);
-  left: calc(50% - 75px);
-  border-radius: 4.36px;
-  width: 149.2px;
-  height: 44px;
-  object-fit: cover;
-}
-.property-picker2 {
-  height: 160px;
-  flex: 1;
-  position: relative;
-  border-radius: 8px;
-  background: linear-gradient(
-    180deg,
-    rgba(28, 25, 78, 0.1),
-    rgba(46, 83, 138, 0.1)
-  );
-  border: 1px solid #272a44;
-  box-sizing: border-box;
-  overflow: hidden;
-  min-width: 162px;
-}
-.logo-icon2 {
-  position: absolute;
-  top: calc(50% - 40px);
-  left: calc(50% - 40px);
-  border-radius: 20px;
-  width: 80px;
-  height: 80px;
-  object-fit: cover;
-}
-.property-picker3 {
-  height: 160px;
-  width: 160px;
-  position: relative;
-  border-radius: 8px;
-  background: linear-gradient(
-    180deg,
-    rgba(28, 25, 78, 0.1),
-    rgba(46, 83, 138, 0.1)
-  );
-  border: 1px solid #272a44;
-  box-sizing: border-box;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-.image-1012-icon1 {
-  position: absolute;
-  top: calc(50% - 20px);
-  left: calc(50% - 75px);
-  border-radius: 4.36px;
-  width: 149.2px;
-  height: 44px;
-  object-fit: cover;
-}
-.property-picker4 {
-  height: 160px;
-  flex: 1;
-  position: relative;
-  border-radius: 8px;
-  background: linear-gradient(
-    180deg,
-    rgba(28, 25, 78, 0.1),
-    rgba(46, 83, 138, 0.1)
-  );
-  border: 1px solid #272a44;
-  box-sizing: border-box;
-  overflow: hidden;
-  min-width: 162px;
-}
+
 .property-picker-parent {
-  align-self: stretch;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 22px;
+  align-items: center;
+  justify-content: start;
+  gap: 22px; /* Adjust this value as needed for spacing */
+  animation: scroll 30s linear infinite;
+  white-space: nowrap;
+  overflow: hidden; /* Hide the overflow to ensure items scroll in from the edge */
+}
+
+.property-picker,
+.property-picker1,
+.property-picker2,
+.property-picker3,
+.property-picker4 {
+  height: 160px;
+  width: 160px;
+  position: relative;
+  border-radius: 8px;
+  background: linear-gradient(
+    180deg,
+    rgba(28, 25, 78, 0.1),
+    rgba(46, 83, 138, 0.1)
+  );
+  border: 1px solid #272a44;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.logo-icon, .logo-icon1,  .logo-icon2{
+  width: 60%; /* Make the image take the full width of its container */
+  height: 60%; /* Make the image take the full height of its container */
+  object-fit: contain; /* Scale the image to maintain aspect ratio while fitting within the element's content box */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.image-1012-icon, .image-1012-icon1 {
+  width: 80%; /* Make the image take the full width of its container */
+  height: 80%; /* Make the image take the full height of its container */
+  object-fit: contain; /* Scale the image to maintain aspect ratio while fitting within the element's content box */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes scroll {
+  from { 
+    transform: translateX(0%); 
+  }
+  to { 
+    transform: translateX(-50%); /* Moves content left to half its total width */
+  }
 }
 .bubble-bank,
 .shape-sorter {
@@ -152,12 +82,14 @@
   align-items: flex-start;
   max-width: 100%;
 }
+
 .shape-sorter {
-  width: 1068px;
+  width: 100%; /* Ensure this container fills its parent for proper alignment */
   flex-direction: column;
   justify-content: flex-start;
   gap: 60px;
 }
+
 .bubble-bank {
   align-self: stretch;
   flex-direction: row;
@@ -169,18 +101,22 @@
   font-size: 48px;
   color: #fff;
   font-family: "TT Firs Neue";
+  overflow: hidden; /* Important for the scrolling effect */
 }
+
 @media screen and (max-width: 1125px) {
   .shape-sorter {
-    gap: 30px 60px;
+    gap: 30px;
   }
 }
+
 @media screen and (max-width: 800px) {
   .our-partners {
     font-size: 38px;
     line-height: 42px;
   }
 }
+
 @media screen and (max-width: 450px) {
   .our-partners {
     font-size: 29px;

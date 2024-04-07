@@ -1,7 +1,43 @@
+import React, { useState } from 'react';
 import FrameComponent from "./FrameComponent8";
 import "./DataFlowSplitter.css";
 
+
+
+
+
 const DataFlowSplitter = () => {
+  const [visibleSet, setVisibleSet] = useState(0); // Controls which set of members to show
+
+  // Assuming membersData is your array of people
+  const membersData = [
+    { id: 1, shapeCollector: "/image1.png", jobTitle: "CEO, Founder", propName: "Suraj" },
+    { id: 2, shapeCollector: "/image2.png", jobTitle: "CTO, Co-founder", propName: "Atharva" },
+    { id: 3, shapeCollector: "/image3.png", jobTitle: "Tech Lead", propName: "Nikhil" },
+    { id: 4, shapeCollector: "/image4.png", jobTitle: "Marketing Lead", propName: "Prateek" },
+    { id: 5, shapeCollector: "/image5.png", jobTitle: "Web3 Engineer", propName: "Tushar" },
+    { id: 6, shapeCollector: "/image6.png", jobTitle: "AI Infra Engineer", propName: "Varun" },
+    { id: 7, shapeCollector: "/image7.png", jobTitle: "BD & Partnership", propName: "Rokas" },
+    { id: 8, shapeCollector: "/image8.png", jobTitle: "BD & Partnership", propName: "Nojus" },
+    { id: 9, shapeCollector: "/image9.png", jobTitle: "Communication & Content", propName: "Oksana" },
+   
+    { id: 10, shapeCollector: "/image10.png", jobTitle: "Full Stack Dev", propName: "Aditya" }
+  ];
+
+  const handleNext = () => {
+    setVisibleSet((prevSet) => (prevSet + 1) % 2); // Toggle between the two sets (0 and 1)
+  };
+
+  
+  const handlePrevious = () => {
+    setVisibleSet((prevSet) => (prevSet - 1 + 2) % 2); // Toggle between the two sets, ensuring it loops correctly
+  };
+
+  // Determine which members to display
+  const displayedMembers = visibleSet === 0
+  ? membersData.slice(0, 6) // First 6 members for the first set
+  : membersData.slice(6); //
+
   return (
     <section className="data-hub">
       <div className="frame-parent22">
@@ -15,124 +51,18 @@ const DataFlowSplitter = () => {
               <div className="shape-trimmer" />
             </div>
           </div>
-          <div className="frame-parent23">
-            <div className="frame-parent24">
-              <FrameComponent
-                shapeCollector="/frame-1327225054@2x.png"
-                jobTitle="Founder and CEO"
-              />
-              <FrameComponent
-                shapeCollector="/frame-1327225054-1@2x.png"
-                jobTitle="AI Infra"
-                propBackground="linear-gradient(2.28deg, rgba(6, 176, 97, 0.5), rgba(47, 32, 120, 0.5))"
-                propColor="#2af698"
-                propMinWidth="59px"
-              />
+          <div className="people-section">
+            {visibleSet > 0 && (
+              <button onClick={handlePrevious} className="navigation-button">{"<"}</button>
+            )}
+            <div className="people-display">
+              {displayedMembers.map((member, index) => (
+                <FrameComponent key={index} {...member} />
+              ))}
             </div>
-            <div className="frame-parent25">
-              <div className="triangle-former-parent">
-                <div className="triangle-former">
-                  <img
-                    className="linkedin-symbolsvg-icon1"
-                    alt=""
-                    src="/linkedin-symbolsvg-5.svg"
-                  />
-                </div>
-                <div className="triangle-former1">
-                  <img
-                    className="linkedin-symbolsvg-icon2"
-                    alt=""
-                    src="/linkedin-symbolsvg-5.svg"
-                  />
-                </div>
-              </div>
-              <div className="frame-parent26">
-                <div className="frame-parent27">
-                  <div className="layer-labeller-wrapper">
-                    <div className="layer-labeller">
-                      <img
-                        className="x-logosvg-icon1"
-                        alt=""
-                        src="/x-logosvg-5.svg"
-                      />
-                    </div>
-                  </div>
-                  <div className="path-processor1">
-                    <div className="wrapper-frame-1327225054">
-                      <img
-                        className="wrapper-frame-1327225054-child"
-                        loading="lazy"
-                        alt=""
-                        src="/frame-1327225054-2@2x.png"
-                      />
-                    </div>
-                  </div>
-                  <div className="name-group">
-                    <div className="name2">{`Atharva `}</div>
-                    <div className="job-title2">CTO, Co-founder</div>
-                  </div>
-                </div>
-                <div className="blend-blender-parent">
-                  <div className="blend-blender">
-                    <img
-                      className="x-logosvg-icon2"
-                      alt=""
-                      src="/x-logosvg-5.svg"
-                    />
-                  </div>
-                  <div className="export-exporter-parent">
-                    <div className="export-exporter">
-                      <div className="wrapper-canvas-crafter">
-                        <img
-                          className="canvas-crafter-icon"
-                          loading="lazy"
-                          alt=""
-                          src="/frame-1327225054@2x.png"
-                        />
-                      </div>
-                    </div>
-                    <div className="name-container">
-                      <div className="name3">{`Atharva `}</div>
-                      <div className="job-title3">AI Infra</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="frame-parent28">
-              <div className="variable-validator-parent">
-                <div className="variable-validator">
-                  <img
-                    className="linkedin-symbolsvg-icon3"
-                    alt=""
-                    src="/linkedin-symbolsvg-5.svg"
-                  />
-                </div>
-                <div className="variable-validator1">
-                  <img
-                    className="linkedin-symbolsvg-icon4"
-                    alt=""
-                    src="/linkedin-symbolsvg-5.svg"
-                  />
-                </div>
-              </div>
-              <div className="frame-parent29">
-                <div className="x-logosvg-container">
-                  <img
-                    className="x-logosvg-icon3"
-                    alt=""
-                    src="/x-logosvg-5.svg"
-                  />
-                </div>
-                <div className="x-logosvg-frame">
-                  <img
-                    className="x-logosvg-icon4"
-                    alt=""
-                    src="/x-logosvg-5.svg"
-                  />
-                </div>
-              </div>
-            </div>
+            {visibleSet === 0 && membersData.length > 6 && (
+              <button onClick={handleNext} className="navigation-button">{">"}</button>
+            )}
           </div>
         </div>
         <div className="frame-parent30">

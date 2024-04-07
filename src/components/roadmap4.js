@@ -1,48 +1,54 @@
 import FrameComponent5 from "./FrameComponent";
-import "./FrameComponent4.css";
+import "./roadmap4.css";
 
-const FrameComponent4 = () => {
+const Roadmap4 = () => {
   return (
     <div className="symbol-swapper">
       <div className="container-compiler">
-        <div className="q3-2022">2019 - 23</div>
+        <div className="q3-2022">H2 - 2024</div>
       </div>
       {/* <div className="completed-wrapper">
-        <div className="completed">Completed</div>
+        <div className="completed">test</div>
       </div> */}
       {/* <div className="sme-marketplace-mvp">SME Marketplace MVP launch</div> */}
       <div className="function-fusion">
         <FrameComponent5
           pathProcessor="1"
-          mVPOfSMEMarketplaceLaunch="Customer interviews and Customer Validation"
+          mVPOfSMEMarketplaceLaunch="Scaling our framework for more dev adoption for Zynapse"
         />
         <FrameComponent5
           pathProcessor="2"
-          mVPOfSMEMarketplaceLaunch="Custom transformers deployment "
+          mVPOfSMEMarketplaceLaunch="Early Enterprise Adoption and Pilots for Zynapse"
           propWidth="10px"
           propMinWidth="10px"
         />
         <FrameComponent5
           pathProcessor="3"
-          mVPOfSMEMarketplaceLaunch="Identified the intersection between AIxweb3 & f truly scalable and open private blockchains"
+          mVPOfSMEMarketplaceLaunch="Onboarding 100+ web3 projects using Zynapse infra"
           propWidth="10px"
           propMinWidth="10px"
         />
         <FrameComponent5
           pathProcessor="4"
-          mVPOfSMEMarketplaceLaunch="Experimented with Federated Learning (FL)  and enterprise blockchain"
+          mVPOfSMEMarketplaceLaunch="AIxWeb3 Launchpad "
           propWidth="10px"
           propMinWidth="10px"
         />
         <FrameComponent5
           pathProcessor="5"
-          mVPOfSMEMarketplaceLaunch="Explored zk tech, Fed ML models, DePIN Network "
-          propWidth="10px"
-          propMinWidth="10px"
+          mVPOfSMEMarketplaceLaunch="Community Growth to 50k Engaged Members"
+          propWidth="11px"
+          propMinWidth="11px"
         />
-          <FrameComponent5
+        <FrameComponent5
           pathProcessor="6"
-          mVPOfSMEMarketplaceLaunch="Developed several applications to bring privacy to web3"
+          mVPOfSMEMarketplaceLaunch="Token Generation Event (TGE)"
+          propWidth="11px"
+          propMinWidth="11px"
+        />
+        <FrameComponent5
+          pathProcessor="7"
+          mVPOfSMEMarketplaceLaunch="Listing on CEXs and DEXs"
           propWidth="11px"
           propMinWidth="11px"
         />
@@ -51,4 +57,4 @@ const FrameComponent4 = () => {
   );
 };
 
-export default FrameComponent4;
+export default Roadmap4;

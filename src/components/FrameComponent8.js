@@ -4,22 +4,19 @@ import "./FrameComponent8.css";
 const FrameComponent = ({
   shapeCollector,
   jobTitle,
+  propName, // Add a new prop for the name
   propBackground,
   propColor,
   propMinWidth,
 }) => {
-  const dataProcessorStyle = useMemo(() => {
-    return {
+  const dataProcessorStyle = useMemo(() => ({
       background: propBackground,
-    };
-  }, [propBackground]);
+    }), [propBackground]);
 
-  const jobTitleStyle = useMemo(() => {
-    return {
+  const jobTitleStyle = useMemo(() => ({
       color: propColor,
       minWidth: propMinWidth,
-    };
-  }, [propColor, propMinWidth]);
+    }), [propColor, propMinWidth]);
 
   return (
     <div className="data-processor-group">
@@ -34,7 +31,7 @@ const FrameComponent = ({
         </div>
       </div>
       <div className="name-parent">
-        <div className="name1">Suraj Venkat</div>
+        <div className="name1">{propName}</div> {/* Use the new propName here */}
         <div className="job-title1" style={jobTitleStyle}>
           {jobTitle}
         </div>

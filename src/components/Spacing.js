@@ -22,7 +22,7 @@ const Spacing = ({ bastianGruber, propFlex, propMinWidth, propAlignSelf }) => {
           className="image-1010-icon"
           loading="lazy"
           alt=""
-          src="/image-1010@2x.png"
+          src="/i3.png"
         />
       </div>
       <div className="bastian-gruber" style={bastianGruberStyle}>

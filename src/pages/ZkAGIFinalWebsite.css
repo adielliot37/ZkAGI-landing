@@ -469,6 +469,26 @@
   height: 10px;
   z-index: 4;
 }
+
+
+.roadmap-content {
+  transition: transform 0.5s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slide-next {
+  transform: translateX(-100%);
+}
+
+.slide-button {
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+
 .ellipse-div {
   top: 608px;
   left: 1393px;
@@ -716,6 +736,21 @@
   gap: 68px;
   max-width: 100%;
 }
+.new-components{
+ 
+    position: absolute;
+    top: 188px;
+    left: 185px;
+    width: 1252px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 68px;
+    max-width: 100%;
+  }
+
 .image-illustration-child {
   position: absolute;
   top: 672px;

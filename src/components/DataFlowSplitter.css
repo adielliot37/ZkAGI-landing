@@ -13,12 +13,14 @@
   align-self: stretch;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   padding: 0 24px 0 20px;
   text-align: center;
   font-size: 48px;
   color: #fff;
+  margin: 20px 0;
+
 }
 .core-team {
   position: relative;
@@ -58,12 +60,90 @@
   gap: 10px;
   max-width: 100%;
 }
-.frame-parent24 {
-  height: 294px;
-  flex-direction: column;
-  justify-content: flex-start;
-  gap: 30px;
+
+
+.people-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 20px;
 }
+
+.people-display {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 20px; /* Adjust space between grid items */
+  justify-items: center; /* Center grid items horizontally */
+  align-items: start; /* Align grid items to the start of the container */
+  width: 100%; /* Ensure it spans the full width of its parent */
+  margin-bottom: 20px; /* Space before the navigation buttons */
+}
+
+
+.navigation-button {
+  border: none;
+  background-color: inherit; /* Removing specific color to blend with the background */
+  cursor: pointer;
+  font-size: 24px; /* Adjusted for visibility */
+  border-radius: 50%; /* Circle shape */
+  width: 50px; /* Equal width and height for a circle */
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  transition: background-color 0.3s, transform 0.3s; 
+  color: #fff;/* Smooth transition for hover effects */
+}
+
+.navigation-button:hover {
+  background-color: #2f2078; /* Example hover color */
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.navigation-button img {
+  width: 20px; /* Adjust size as needed */
+  height: auto;
+}
+
+/* Adjustments for individual FrameComponent might be needed */
+.frame-component-class {
+  /* Example class name, replace with actual class used in FrameComponent */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #f0f0f0; /* Light background */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.frame-component-class img {
+  width: 100%; /* Make image responsive within the component */
+  max-width: 100px; /* Adjust based on your preference */
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.frame-component-class .name1, .job-title1 {
+  text-align: left;
+  margin: 5px 0;
+}
+
+.frame-parent24 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Creates 5 columns */
+  grid-template-rows: repeat(2, 1fr); /* Creates 2 rows */
+  gap: 0px; /* Adjust the gap as needed */
+  row-gap: 40px;
+  justify-content: center;
+  align-items: center;
+  height: 80%; /* Ensure this and the width below are adjusted to fit the space allocated for 4 people initially */
+  width: 80%;
+}
+
 .linkedin-symbolsvg-icon1 {
   width: 14px;
   height: 14px;
@@ -415,7 +495,9 @@
 }
 .frame-parent23 {
   flex-direction: row;
-  justify-content: space-between;
+  
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
   gap: 20px;
   font-size: 18px;
   color: #fff;
